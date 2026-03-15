@@ -1,0 +1,37 @@
+THERE ARE :
+1) WEB 1 (1990) --> ONLY HTML and CSS
+2) WEB 2 --> NOW a days
+3) WEB 3 --> decentralized and build with people and there is no person who is having the authority      
+
+packets contains:  when data goes out of phone it goes to air which is packet and goes to nearest tower
+     (more packet more data)
+1)header:   where the message is going (which person)
+2)payload:  the message which is to send
+
+
+=> packets are sending using different protocols like the tcp-ip
+
+=>types of connection:
+1)wired
+2)wireless
+
+=> IP address: our device has no ip address, when device is connected to the internet
+  -> our isp will give us the ip address
+  -> every device has mac address
+  -> Router: to connect with the router, the router needs the mac address
+
+=> DNA () 
+   -> google.com converts into the ip address
+
+=> routing
+   -> takes your data through gateways
+
+=> ISP (internet service provider)
+   -> companies that provide the internet
+
+=> DNS (Domain name system)
+   -> whenever we open the web browser and sends the request the dns says give me link like google.com and it converts into ip and send the request to the server
+
+=> CLIENT - SERVER Architecture
+   -> user device: request the data from the server
+   -> server device: a powerful computer that stores api,database and other which is big machine 

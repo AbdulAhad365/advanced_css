@@ -1,0 +1,14 @@
+=> cross-axis vs main-axis
+   --> cross axis is the y-axis (align-items)
+   --> main axis is the x-axis  (justify-content)
+
+=> flex-direction:
+    --> flex-direction:row (default)
+    --> flex-direction:column (make flex cross and main opposite)
+
+=> BACKRGOUND
+   --> background-size:contain(height)  --> but the issue is it repeats the image
+   --->background-repeat:no-repeat
+
+   --> background-size:cover(width conver)
+   --> background-position:center or 30% 20%

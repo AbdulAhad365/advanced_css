@@ -1,0 +1,6 @@
+=> HOVER,FOCUS,ACTIVE,BEFORE,AFTER
+
+=> transition:
+   ->  moving from one state to another e.g: close hand and open it 
+   -> ease-in,ease-out,linerar,easy-in-out
+   -> always on element not on hover

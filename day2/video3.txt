@@ -1,0 +1,39 @@
+=> html or !:
+ -> default boiler connected
+
+=> markup langauage
+  -> it is a static langauage
+  -> everything is a tag
+
+=> Docktype
+   -> it is a instruction not a tag that is a html 5
+
+
+=> title
+   -> change the title of the website
+
+=> head:
+   -> it is meta data
+
+
+<a target="_black"></a>
+
+=> sementic tag:
+  -> the tags itself tell what they are for
+  -> header,footer,main,aside,article
+
+=> block
+   -> start on next line
+   -> e.g: p
+
+=> inline
+    -> comes in the same line
+    -> e.g: a
+
+
+Symbols:
+   -> copy: &copy;
+   -> registered: &reg;
+   -> heart :  &hearts;
+   ->heart: &heartsuit; 
+   -> 1/2: &half;

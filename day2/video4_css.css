@@ -1,0 +1,69 @@
+ /* body{
+    background-color: black;
+    color: white;
+} */
+/*
+input[type="text"]{
+    color: red;
+}
+
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing:1px;
+    word-spacing: 4px;
+    text-align: center;    /*left, right */
+    /* text-transform: capitalize;     uppercase */
+    /* text-decoration: underline; */
+
+    /* text-shadow: 10px 10px 10px white; 
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+.bg{
+    width: 100%;
+
+    /* height: 200px; */
+    background-color: red;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg);
+    background-size: cover;
+    background-position: center ;  /*center,top,bottom*/
+    box-sizing: border-box;
+    width:300px;
+    height: 200px;
+    padding: 50px;
+}
+.bg2{
+    width: 300px;
+    height: 300px;
+    /* background:linear-gradient(to right bottom,purple,red,yellow); */
+    background: radial-gradient(red,blue);
+    border-radius: 50%;
+    box-shadow:10px 20px 50px white
+    /* x-axis y-axis blur */
+}
+#so{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://jooinn.com/images/abstract-background-1.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1773098587128-6b3f56533245?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+    background-position: center;
+}

@@ -1,0 +1,13 @@
+=> responsive unit:
+  -->%      (depends on parent dimentions)
+  -->rem:   (it is according to root html by default root 1rem =16px)  (if changed to 50px and h1 tag says 2rem then it means 100px)
+  -->em     (according to parenet) (if parent is 50px and root is 2em then 100px)
+  -->vh     (viewport height)
+  -->vw     (viewport width)
+
+
+=> @media (min-width:600px){        (is applied if width is > 600px)
+
+}
+
+=> max-width:600px   (is applied if width is < 600px)

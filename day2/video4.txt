@@ -1,0 +1,60 @@
+=>CSS:
+  -> CASCADING STYLE SHEET
+
+=> Selector:{
+    property:value
+}
+-> h1:{
+    color:red
+}
+
+=> types of css:
+  -> inline
+  -> internal
+  ->external
+
+=> TYPES OF SELECTORS:
+=>  1)   element selector:
+
+p{
+  color:read
+}
+
+=>  2)   class selector:
+
+.someClass{
+  color:red
+}
+
+#    3) id selector:
+
+#someID{
+  class:red
+}
+
+--------------------------------------------------------------
+=> FONT FAMILY
+   -->font-family
+   -->font-STYLE
+   -->font-weight
+   -->font-height
+   -->letter-spacing
+   -->word-spacing
+
+=> TEXT PROPERTIES
+   -->text-align
+   -->text-transform
+   -->text-decoration
+   -->text-shadow
+
+=> BORDERS:
+   --->border-width
+   --->border-STYLE
+   --->border-color
+   --->border-radius
+
+=> CONTENT BOX VS BORDER BOX
+    ---> content box: ( there is some height and width add padding 50px more in that)
+    ---> border box: ( there is some height and width and it final add 50px padding within it)
+=> hsl :(huge saturation light )
+=> hsla:(huge saturation light alpha)

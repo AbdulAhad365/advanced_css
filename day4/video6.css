@@ -1,0 +1,91 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    color:white;
+    perspective: 700px;
+    
+}
+
+button{
+    padding: 10px;
+    color: aqua;
+    background-color: brown;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s; 
+}
+
+button:hover{
+    color: red;
+    background-color: aqua;
+}
+
+#focus_input:focus{
+
+    color: red;
+}
+
+li::after{
+    content: "==>";
+    color: red;
+}
+
+.box{
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* transform: skew(30deg,15deg); */
+    /* transform: translate3d(10px,20px,100px); */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    /* transform: translate(200px,200px); */
+    /* transform:rotate(30deg); */
+    /* transform: scale(.8);  enlarge or shrinks the element if 1.6 160% element becomes greater */
+
+    animation: chnange_color 3s cubic-bezier(0.19, 1, 0.22, 1) 1s infinite both;
+
+}
+
+/* now the animation */
+@keyframes chnange_color{
+
+    /* from{
+
+        background-color: red;
+    }
+    to{
+        background-color: purple;
+
+    } */
+     0%{
+        background-color: red;
+     }
+     40%{
+
+        background-color: purple;
+
+     }
+     75%{
+        background-color: greenyellow;
+
+
+     }
+     100%{
+        background-color: azure;
+
+     }
+
+    
+}
+
+
+/* .box:hover{
+    transform: scale(.4);
+    /* transform: skew(30deg); 
+
+} */
