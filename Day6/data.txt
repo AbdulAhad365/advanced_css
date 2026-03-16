@@ -1,0 +1,4 @@
+==> design css
+
+==> scss: is a (pre-processor) (has variables)
+==> tailwind : is a library
